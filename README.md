@@ -39,6 +39,8 @@ end
 
 ## FUNCTION
 ```
+func add(a, b) -> out(a + b)
+
 func add(a, b)
   out(a + b)
 end
