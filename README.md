@@ -20,8 +20,8 @@ loc e = false
 ## PRINT
 ```
 out("Hello, world!")
-out(1 + 2)`
-out(a)`
+out(1 + 2)
+out(a)
 ```
 
 ## IF...ELSE
