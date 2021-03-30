@@ -1,0 +1,12 @@
+out('-Add----------')
+out('')
+
+while true do
+	loc a = inputInt()
+	loc b = inputInt()
+
+	out('-Answer-------')
+	out(a + b)
+	out('--------------')
+	out('')
+end
