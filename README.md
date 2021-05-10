@@ -5,35 +5,35 @@ Nald is a programming language, created with Python
 Open your terminal.
 ```
 $ nald
-$ =] run("{filename}.nald")
+$ =] run('{filename}')
 ```
 
 ## VARIABLE
 ```
 loc a = 0
 loc b = a
-loc c = "String"
+loc c = 'String'
 loc d = true
 loc e = false
 ```
 
 ## PRINT
 ```
-out("Hello, world!")
+out('Hello, world!')
 out(1 + 2)
 out(a)
 ```
 
 ## IF...ELSE
 ```
-if a == b do out("a = b") elif a == 2 do out("M") else out("N")
+if a == b do out('a = b') elsif a == 2 do out('M') else out('N')
 
 if a == 1 do
-  out("Y")
-elif a == 2 do
-  out("M")
+  out('Y')
+elsif a == 2 do
+  out('M')
 else
-  out("N")
+  out('N')
 end
 ```
 
@@ -59,9 +59,9 @@ end
 
 ## WHILE LOOP
 ```
-while false do out("false")
+while false do out('false')
 
 while true do
-  out("true")
+  out('true')
 end
 ```
