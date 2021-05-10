@@ -5,7 +5,7 @@ Nald is a programming language, created with Python
 Open your terminal.
 ```
 $ nald
-$ =] run('{filename}')
+=] run('{filename}')
 ```
 
 ## VARIABLE
