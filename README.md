@@ -9,12 +9,21 @@ $ nald
 ```
 
 ## VARIABLE
+You can use "loc" ot "var" to make a variable.
 ```
 loc a = 0
 loc b = a
 loc c = 'String'
 loc d = true
 loc e = false
+loc f = ['H', 'W']
+
+var a = 0
+var b = a
+var c = 'String'
+var d = true
+var e = false
+var f = ['H', 'W']
 ```
 
 ## PRINT
@@ -64,4 +73,20 @@ while false do out('false')
 while true do
   out('true')
 end
+```
+
+## INPUT
+```
+scanln()
+scanlnN('>>')
+scanlnInt()
+scanlnIntN('>>')
+```
+
+## RANDOM
+```
+rndByte()
+rndShort()
+rndInt()
+rndLong()
 ```
